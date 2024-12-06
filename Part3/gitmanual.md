@@ -11,5 +11,25 @@ Git requirements:
 If any issues installing Git, please contact IT.
 ### 2.	Do research on some principles/techniques of industry standard best practices creating and working with repositories and branches in Git. 
 #### a.	List the most important principles/techniques for creating and working with repositories
+- Create a README file
+- Frequent and small commits e.g. one bug fix per commit
+- Consistent and clear commit names and descriptions
+- Regularly push and pull changes to avoid merge conflicts
+- Review changes before committing
+
+Reference: [Best practices for repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories)
 #### b.	List the most important principles/techniques for creating and working with branches
+- Favor branching over forking
+- Reserve the main branch for final changes and use development branches for actively working on the project
+- Use consistent naming conventions for branches
+- Pull from the main branch regularly to ensure you're working on up to date files
+- Commit regularly
+- If a branch is no longer used or is abandoned, delete it to keep a clean repository and reduce complexity
 ### 3.	List the steps in a Git workflow that the team should follow when working on projects.
+- Set up the .gitignore when first initialising the repository
+- Work on the local repository and make changes
+- Commit regularly after each task is tackled (e.g. every bug fix)
+- When ready to commit, check changes and name the commit clearly
+- Work on different branches for separate lines of development, e.g. working on different features
+- Merge changes from branches to main
+- Push and pull changes regularly
