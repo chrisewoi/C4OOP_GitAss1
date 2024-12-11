@@ -9,7 +9,7 @@ Git requirements:
 - macOS 10.9 or newer
 
 TO INSTALL:
-- Go to the (official Git downloads page)[https://git-scm.com/downloads/win]
+- Go to the [official Git downloads page](https://git-scm.com/downloads/win)
 - Click on either the 64-bit or 32-bit version depending on your system
 - Run the downloaded file to begin installation
 - Read and accept the License agreement
