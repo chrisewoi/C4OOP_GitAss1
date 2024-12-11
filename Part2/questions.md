@@ -1,6 +1,6 @@
 # Questions
 ## 1.	List three major version control software for software engineering.
-Git, Bitbucket, CVS
+Git, Perforce, CVS
 ## 2.	What are the main advantages to using Git in your software development, and how is it useful for game developers.
 Allows for easy management and organisation of software development with tracked changes and version history, where developers all contribute to the same repository. Allows for multiple users to work on different parts of a project at the same time. Has functionality for merging two versions of a file or project.
 ## 3.	Define the following terms in relation to Git. Branch, Pull, Push, repository, working copy, merge
@@ -29,6 +29,7 @@ Allows branches containing different changes to be combined into a single branch
 - VS Code
 ## 6.	In a merged source code file, how does Git let you know there is a conflict?
 When a user attempts to merge, git will tell you about any merge conflicts. 
+It appears in the file marked with <<<<<<<, =======, >>>>>>> containing and separating the conflicts.
 ## 7.	What are the steps you can take to resolve Git conflicts?
 You can use "git mergetool" to address each conflict individually.
 After you address every conflict the merge can proceed.
@@ -45,10 +46,10 @@ True
 ## 13.	Describe what is DevOps, how is it useful for game developers?
 It's a methodology consisting of tools, practices and philosphies for automating and integrating processes between software development and IT operations, hence the name DevOps
 ## 14.	List what tools can be used with DevOps. Give a brief description of each one. (at least 3)
-- Git
-- Amazon Web Services
-- Microsoft Azure
-- Raygun
-- JMeter
+- Git - open source, actively maintained, fast, scalable distributed revision control system.
+- Amazon Web Services - cloud computing platform by Amazon offering a wide range of services
+- Microsoft Azure - cloud computing platformand an online portal by Microsoft
+- Raygun - A monitoring tool for finding performance issues and bugs
+- JMeter - open source java based software for testing web applications
 ## 15.	What is CI/CD and how can it be used to automate the game development process?
 It stands for Continuous Integration an Continuous Delivery. It can automate the game development process with automated testing, automated user management, code quality tracking, automated security features, automated cloud integrations

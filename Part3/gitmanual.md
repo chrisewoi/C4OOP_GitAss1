@@ -8,6 +8,15 @@ Git requirements:
 - Windows 7, 8, 8.1, or 10
 - macOS 10.9 or newer
 
+TO INSTALL:
+- Go to the (official Git downloads page)[https://git-scm.com/downloads/win]
+- Click on either the 64-bit or 32-bit version depending on your system
+- Run the downloaded file to begin installation
+- Read and accept the License agreement
+- Choose an installation directory
+- Click through next to accept the default configuration until you finish the setup
+- Git is now installed on your Windows system
+
 If any issues installing Git, please contact IT.
 ### 2.	Do research on some principles/techniques of industry standard best practices creating and working with repositories and branches in Git. 
 #### a.	List the most important principles/techniques for creating and working with repositories
